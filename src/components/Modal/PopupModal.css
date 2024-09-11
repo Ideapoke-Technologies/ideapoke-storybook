@@ -1,0 +1,21 @@
+.modal-popup-Delete {
+    position: relative;
+    height: 330px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 12%;
+    overflow: hidden !important;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 475px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        height: 400px;
+    }
+}
